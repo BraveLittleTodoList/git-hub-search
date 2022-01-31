@@ -1,3 +1,41 @@
+*{
+    /*Zero out*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+.container{
+    max-width: 500px;
+    margin: auto;
+}
+
+
+/*Header styles*/
+.header{
+    height: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color:#FEFEFE
+}
+
+#btn-mode{
+    height: 90px;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 3px;
+    color: #FEFEFE;
+
+}
+#mode-icon{
+    padding-left: 10px;
+}
+
+/*Body*/
 body{
-    background-color: red;
+    background-color: #1e2a47
 }
